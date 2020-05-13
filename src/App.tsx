@@ -4,7 +4,7 @@ import Index from './components/index'
 
 function App() {
   return (
-    <Router basename='/996'>
+    <Router>
         <Route component={Index}/>
     </Router>
   );
